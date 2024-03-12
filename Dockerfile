@@ -9,4 +9,4 @@ RUN unzip neogym.zip
 RUN cp -rvf neogym-html/* .
 RUN rm -rvf neogym-html  neogym.zip
 EXPOSE 80
-CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"]
+CMD ["/usr/sbin/httpd", "-D", "FOREGROUND"] 
